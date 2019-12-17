@@ -58,7 +58,7 @@ if __name__ == "__main__":
     gpus = [int(x) for x in gpus if x != ""]
     
     ### Dataset & DataLoader
-    if args.model == "Inception":
+    if args.model == "GoogLeNet":
         indices = None
     else:
         if args.data == "PETA":
